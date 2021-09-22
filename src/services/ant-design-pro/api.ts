@@ -1,3 +1,11 @@
+/*
+ * @Description:
+ * @Author: 水印红枫
+ * @Editor: 水印红枫
+ * @Date: 2021-08-30 14:12:36
+ * @LastEditTime: 2021-09-17 16:58:05
+ * @LastEditors: 水印红枫
+ */
 // @ts-ignore
 /* eslint-disable */
 import { request } from 'umi';

@@ -1,4 +1,12 @@
-﻿export default [
+﻿/*
+ * @Description:
+ * @Author: 水印红枫
+ * @Editor: 水印红枫
+ * @Date: 2021-08-30 14:12:35
+ * @LastEditTime: 2021-09-17 16:48:05
+ * @LastEditors: 水印红枫
+ */
+export default [
   {
     path: '/user',
     layout: false,
@@ -46,7 +54,14 @@
     name: 'list.table-list',
     icon: 'table',
     path: '/list',
-    component: './TableList',
+    routes: [
+      {
+        path: '/list/love_data',
+        name: '公益',
+        icon: 'table',
+        component: './TableList/love_data',
+      },
+    ],
   },
   {
     path: '/',

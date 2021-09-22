@@ -1,9 +1,18 @@
+/*
+ * @Description:
+ * @Author: 水印红枫
+ * @Editor: 水印红枫
+ * @Date: 2021-08-30 14:12:36
+ * @LastEditTime: 2021-09-17 11:14:28
+ * @LastEditors: 水印红枫
+ */
 import React from 'react';
 import { PageContainer } from '@ant-design/pro-layout';
 import { Card, Alert, Typography } from 'antd';
 import { useIntl, FormattedMessage } from 'umi';
 import styles from './Welcome.less';
 
+// 代码视图组件
 const CodePreview: React.FC = ({ children }) => (
   <pre className={styles.pre}>
     <code>
